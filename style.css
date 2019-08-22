@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(235,235,235);
+  font-size: 15px;
+  color: rgb(127,126,126);
+}
+a{
+  text-decoration: none;
+}
+h1{
+  color: rgb(221,85,84);
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 0 30px 0;
+}
+h2{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+h4{
+  text-align: center;
+  margin-bottom: 20px;
+}
+ul{
+  list-style-type: none;
+  width: 300px;
+  margin: 0 auto 0 auto;
+}
+li{
+  display: inline-block;
+  margin-right: 40px;
+}
+.fa{
+  color: rgb(204,204,204);
+}
+.container{
+  width: 600px;
+  margin: 20px auto 0 auto;
+}
+div .item{
+  background-color: #FFF;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+a.button{
+  display: block;
+  background-color: rgb(221,85,84);
+  color: #FFF;
+  width: 100px;
+  padding: 10px;
+  margin:30px auto 0 auto;
+  border-radius: 2px;
+  text-align: center;
+}
+.image-round{
+  display: block;
+  width : 120px;
+  height : 120px;
+  margin: 0 auto 0 auto;
+  border: 3px solid rgb(235,235,235);
+  -moz-border-radius : 75px;
+  -webkit-border-radius : 75px;
+  border-radius : 75px;
+}
+.movies-item{
+  clear: both;
+  margin-top: 30px;
+  overflow: hidden; /* Empêche le dépassement des flottants. */
+  vertical-align: top;
+}
+.movies-item img{
+  float: left;
+  margin-right: 20px;
+  width: 120px;
+  height: 180px;
+}
+.social a{
+  display: block;
+  color: rgb(204,204,204);
+  font-size: 14px;
+}
+.social a i{
+  display: block;
+  text-align: center;
+  margin-bottom: 6px;
+}
